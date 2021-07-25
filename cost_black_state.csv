@@ -1,0 +1,55 @@
+year,geography,measure,adjustment,analysis,domain,condition,primary_sex,primary_age,primary_dual,fips,state,primary_race,primary_eligibility,primary_denominator,analysis_value
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,1,ALABAMA,Black,Old Age / Survivor's Insurance,"undefined",528
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,2,ALASKA,Black,Old Age / Survivor's Insurance,"undefined",563
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,4,ARIZONA,Black,Old Age / Survivor's Insurance,"undefined",551
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,5,ARKANSAS,Black,Old Age / Survivor's Insurance,"undefined",520
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,6,CALIFORNIA,Black,Old Age / Survivor's Insurance,"undefined",780
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,8,COLORADO,Black,Old Age / Survivor's Insurance,"undefined",409
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,9,CONNECTICUT,Black,Old Age / Survivor's Insurance,"undefined",632
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,10,DELAWARE,Black,Old Age / Survivor's Insurance,"undefined",689
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,11,DISTRICT OF COLUMBIA,Black,Old Age / Survivor's Insurance,"undefined",565
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,12,FLORIDA,Black,Old Age / Survivor's Insurance,"undefined",647
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,13,GEORGIA,Black,Old Age / Survivor's Insurance,"undefined",558
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,15,HAWAII,Black,Old Age / Survivor's Insurance,"undefined",331
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,16,IDAHO,Black,Old Age / Survivor's Insurance,"undefined",1609
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,17,ILLINOIS,Black,Old Age / Survivor's Insurance,"undefined",902
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,18,INDIANA,Black,Old Age / Survivor's Insurance,"undefined",649
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,19,IOWA,Black,Old Age / Survivor's Insurance,"undefined",644
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,20,KANSAS,Black,Old Age / Survivor's Insurance,"undefined",636
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,21,KENTUCKY,Black,Old Age / Survivor's Insurance,"undefined",575
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,22,LOUISIANA,Black,Old Age / Survivor's Insurance,"undefined",734
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,23,MAINE,Black,Old Age / Survivor's Insurance,"undefined",500
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,24,MARYLAND,Black,Old Age / Survivor's Insurance,"undefined",763
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,25,MASSACHUSETTS,Black,Old Age / Survivor's Insurance,"undefined",912
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,26,MICHIGAN,Black,Old Age / Survivor's Insurance,"undefined",716
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,27,MINNESOTA,Black,Old Age / Survivor's Insurance,"undefined",606
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,28,MISSISSIPPI,Black,Old Age / Survivor's Insurance,"undefined",535
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,29,MISSOURI,Black,Old Age / Survivor's Insurance,"undefined",683
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,30,MONTANA,Black,Old Age / Survivor's Insurance,"undefined",810
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,31,NEBRASKA,Black,Old Age / Survivor's Insurance,"undefined",645
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,32,NEVADA,Black,Old Age / Survivor's Insurance,"undefined",842
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,33,NEW HAMPSHIRE,Black,Old Age / Survivor's Insurance,"undefined",854
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,34,NEW JERSEY,Black,Old Age / Survivor's Insurance,"undefined",723
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,35,NEW MEXICO,Black,Old Age / Survivor's Insurance,"undefined",550
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,36,NEW YORK,Black,Old Age / Survivor's Insurance,"undefined",842
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,37,NORTH CAROLINA,Black,Old Age / Survivor's Insurance,"undefined",606
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,38,NORTH DAKOTA,Black,Old Age / Survivor's Insurance,"undefined",276
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,39,OHIO,Black,Old Age / Survivor's Insurance,"undefined",672
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,40,OKLAHOMA,Black,Old Age / Survivor's Insurance,"undefined",795
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,41,OREGON,Black,Old Age / Survivor's Insurance,"undefined",625
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,42,PENNSYLVANIA,Black,Old Age / Survivor's Insurance,"undefined",793
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,44,RHODE ISLAND,Black,Old Age / Survivor's Insurance,"undefined",878
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,45,SOUTH CAROLINA,Black,Old Age / Survivor's Insurance,"undefined",593
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,46,SOUTH DAKOTA,Black,Old Age / Survivor's Insurance,"undefined",448
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,47,TENNESSEE,Black,Old Age / Survivor's Insurance,"undefined",630
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,48,TEXAS,Black,Old Age / Survivor's Insurance,"undefined",884
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,49,UTAH,Black,Old Age / Survivor's Insurance,"undefined",517
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,50,VERMONT,Black,Old Age / Survivor's Insurance,"undefined",374
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,51,VIRGINIA,Black,Old Age / Survivor's Insurance,"undefined",564
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,53,WASHINGTON,Black,Old Age / Survivor's Insurance,"undefined",700
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,54,WEST VIRGINIA,Black,Old Age / Survivor's Insurance,"undefined",561
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,55,WISCONSIN,Black,Old Age / Survivor's Insurance,"undefined",663
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,56,WYOMING,Black,Old Age / Survivor's Insurance,"undefined",517
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,66,GUAM,Black,Old Age / Survivor's Insurance,"undefined",69
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,72,PUERTO RICO,Black,Old Age / Survivor's Insurance,"undefined",116
+2019,State/Territory,Average principal cost,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,78,VIRGIN ISLANDS,Black,Old Age / Survivor's Insurance,"undefined",525

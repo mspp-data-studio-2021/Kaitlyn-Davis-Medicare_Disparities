@@ -1,0 +1,57 @@
+year,geography,measure,adjustment,analysis,domain,condition,primary_sex,primary_age,primary_dual,fips,state,primary_race,primary_eligibility,primary_denominator,analysis_value
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,1,ALABAMA,Other,Old Age / Survivor's Insurance,"500-999",35
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,2,ALASKA,Other,Old Age / Survivor's Insurance,"500-999",23
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,4,ARIZONA,Other,Old Age / Survivor's Insurance,"1,000-4,999",29
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,5,ARKANSAS,Other,Old Age / Survivor's Insurance,"500-999",28
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,6,CALIFORNIA,Other,Old Age / Survivor's Insurance,"10,000+",32
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,8,COLORADO,Other,Old Age / Survivor's Insurance,"1,000-4,999",26
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,9,CONNECTICUT,Other,Old Age / Survivor's Insurance,"1,000-4,999",27
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,10,DELAWARE,Other,Old Age / Survivor's Insurance,"500-999",35
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,11,DISTRICT OF COLUMBIA,Other,Old Age / Survivor's Insurance,"11-499",20
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,12,FLORIDA,Other,Old Age / Survivor's Insurance,"10,000+",35
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,13,GEORGIA,Other,Old Age / Survivor's Insurance,"1,000-4,999",32
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,15,HAWAII,Other,Old Age / Survivor's Insurance,"10,000+",33
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,16,IDAHO,Other,Old Age / Survivor's Insurance,"500-999",27
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,17,ILLINOIS,Other,Old Age / Survivor's Insurance,"5,000-9,999",36
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,18,INDIANA,Other,Old Age / Survivor's Insurance,"1,000-4,999",32
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,19,IOWA,Other,Old Age / Survivor's Insurance,"500-999",29
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,20,KANSAS,Other,Old Age / Survivor's Insurance,"1,000-4,999",31
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,21,KENTUCKY,Other,Old Age / Survivor's Insurance,"500-999",33
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,22,LOUISIANA,Other,Old Age / Survivor's Insurance,"1,000-4,999",31
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,23,MAINE,Other,Old Age / Survivor's Insurance,"11-499",22
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,24,MARYLAND,Other,Old Age / Survivor's Insurance,"5,000-9,999",33
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,25,MASSACHUSETTS,Other,Old Age / Survivor's Insurance,"1,000-4,999",28
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,26,MICHIGAN,Other,Old Age / Survivor's Insurance,"1,000-4,999",34
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,27,MINNESOTA,Other,Old Age / Survivor's Insurance,"1,000-4,999",28
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,28,MISSISSIPPI,Other,Old Age / Survivor's Insurance,"500-999",31
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,29,MISSOURI,Other,Old Age / Survivor's Insurance,"1,000-4,999",31
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,30,MONTANA,Other,Old Age / Survivor's Insurance,"500-999",26
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,31,NEBRASKA,Other,Old Age / Survivor's Insurance,"500-999",26
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,32,NEVADA,Other,Old Age / Survivor's Insurance,"1,000-4,999",34
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,33,NEW HAMPSHIRE,Other,Old Age / Survivor's Insurance,"500-999",26
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,34,NEW JERSEY,Other,Old Age / Survivor's Insurance,"5,000-9,999",40
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,35,NEW MEXICO,Other,Old Age / Survivor's Insurance,"1,000-4,999",26
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,36,NEW YORK,Other,Old Age / Survivor's Insurance,"10,000+",38
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,37,NORTH CAROLINA,Other,Old Age / Survivor's Insurance,"1,000-4,999",32
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,38,NORTH DAKOTA,Other,Old Age / Survivor's Insurance,"11-499",25
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,39,OHIO,Other,Old Age / Survivor's Insurance,"1,000-4,999",32
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,40,OKLAHOMA,Other,Old Age / Survivor's Insurance,"1,000-4,999",33
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,41,OREGON,Other,Old Age / Survivor's Insurance,"1,000-4,999",24
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,42,PENNSYLVANIA,Other,Old Age / Survivor's Insurance,"1,000-4,999",30
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,44,RHODE ISLAND,Other,Old Age / Survivor's Insurance,"11-499",30
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,45,SOUTH CAROLINA,Other,Old Age / Survivor's Insurance,"1,000-4,999",33
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,46,SOUTH DAKOTA,Other,Old Age / Survivor's Insurance,"11-499",26
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,47,TENNESSEE,Other,Old Age / Survivor's Insurance,"1,000-4,999",30
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,48,TEXAS,Other,Old Age / Survivor's Insurance,"10,000+",33
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,49,UTAH,Other,Old Age / Survivor's Insurance,"1,000-4,999",34
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,50,VERMONT,Other,Old Age / Survivor's Insurance,"11-499",22
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,51,VIRGINIA,Other,Old Age / Survivor's Insurance,"5,000-9,999",33
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,53,WASHINGTON,Other,Old Age / Survivor's Insurance,"5,000-9,999",26
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,54,WEST VIRGINIA,Other,Old Age / Survivor's Insurance,"11-499",33
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,55,WISCONSIN,Other,Old Age / Survivor's Insurance,"1,000-4,999",29
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,56,WYOMING,Other,Old Age / Survivor's Insurance,"11-499",23
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,60,AMERICAN SAMOA,Other,Old Age / Survivor's Insurance,"11-499",30
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,66,GUAM,Other,Old Age / Survivor's Insurance,"1,000-4,999",38
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,69,NORTHERN MARIANAS,Other,Old Age / Survivor's Insurance,"11-499",50
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,72,PUERTO RICO,Other,Old Age / Survivor's Insurance,"11-499",47
+2019,State/Territory,Prevalence,Unsmoothed actual,Base measure,Primary chronic conditions,"Diabetes",All,All,Medicare only,78,VIRGIN ISLANDS,Other,Old Age / Survivor's Insurance,"11-499",35
