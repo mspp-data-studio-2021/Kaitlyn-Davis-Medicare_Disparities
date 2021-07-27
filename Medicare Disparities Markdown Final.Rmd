@@ -1,30 +1,104 @@
 ---
 title: "Medicare Disparities Markdown Final"
 author: "Kaitlyn Davis"
-date: "7/25/2021"
+date: "7/24/2021"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+##install needed packages
+install.packages("dplyr")
+library(dplyr)
+install.packages("readr")
+library(readr)
+
+##load in datasets to make prevalence bar graph
+whiteprev <- read_csv("prevalence_white_state.csv")
+blackprev <- read_csv("prevalence_black_state.csv")
+nativeprev <- read_csv("prevalence_native_state.csv")
+apiprev <- read_csv("prevalence_api_state.csv")
+hispanicprev <- read_csv("prevalence_hispanic_state.csv")
+otherprev <- read_csv("prevalence_other_state.csv")
+
+
+##filter by only NC
+whiteprevnc <- filter(whiteprev, state == "NORTH CAROLINA")
+blackprevnc <- filter(blackprev, state == "NORTH CAROLINA")
+nativeprevnc <- filter(nativeprev, state == "NORTH CAROLINA")
+apiprevnc <- filter(apiprev, state == "NORTH CAROLINA")
+hispanicprevnc <- filter(hispanicprev, state == "NORTH CAROLINA")
+otherprevnc <- filter(otherprev, state == "NORTH CAROLINA")
+
+##bind rows together - to create one dataset with each racial group
+allracesprev <- bind_rows(blackprevnc, whiteprevnc, nativeprevnc, apiprevnc, hispanicprevnc, otherprevnc)
+
+##install needed packages
+install.packages("ggplot2")
+library(ggplot2)
+
+##prevalence by race bar graph
+ggplot(data = allracesprev, aes(x = primary_race, y = analysis_value)) + geom_bar(stat="identity", fill="black") + labs(title = "Diabetes Prevalence in Elderly North Carolinian Medicare Recipients by Race", subtitle="Percentage is out of total erlderly Medicare Recipients in each racial group.", caption="Source: Mapping Medicare Disparities CMS Data") + xlab("Racial Group") + ylab("Percentage") + geom_text(aes(label=analysis_value), vjust=0.5, hjust=1.2, color="white") + coord_flip()
+
+##load in datasets for cost bar graph
+whitecost <- read_csv("cost_white_state.csv")
+blackcost <- read_csv("cost_black_state.csv")
+nativecost <- read_csv("cost_native_state.csv")
+apicost <- read_csv("cost_api_state.csv")
+hispaniccost <- read_csv("cost_hispanic_state.csv")
+othercost <- read_csv("cost_other_state.csv")
+
+##filter to jut include NC
+whitecostnc <- filter(whitecost, state == "NORTH CAROLINA")
+blackcostnc <- filter(blackcost, state == "NORTH CAROLINA")
+nativecostnc <- filter(nativecost, state == "NORTH CAROLINA")
+apicostnc <- filter(apicost, state == "NORTH CAROLINA")
+hispaniccostnc <- filter(hispaniccost, state == "NORTH CAROLINA")
+othercostnc <- filter(othercost, state == "NORTH CAROLINA")
+
+#bind rows together - to make one dataset with each racial group
+allracescost <- bind_rows(whitecostnc, blackcostnc, nativecostnc, apicostnc, hispaniccostnc, othercostnc)
+
+##create cost bar graph
+ggplot(data = allracescost, aes(x = primary_race, y = analysis_value)) + geom_bar(stat="identity", fill="black") + labs(title = "Average Cost of Diabetes-related Medicare Claims in North Carolina by Race", subtitle="Cost is per each beneficiary for the entirety of 2019.", caption="Source: Mapping Medicare Disparities CMS Data") + xlab("Racial Group") + ylab("Cost in Dollars") + geom_text(aes(label=analysis_value), vjust=0.5, hjust=1.2, color="white") + coord_flip()
+
+##load in county data for white racial group
+whiteprevcounties <- read_csv("prevalence_white_counties.csv")
+
+##filter to just NC counties
+whiteprevcountiesnc <- filter(whiteprevcounties, state == "NORTH CAROLINA")
+
+##white diabetes prevalence map
+install.packages("usmap")
+library(usmap)
+
+plot_usmap(data = whiteprevcountiesnc, values = "analysis_value", include = c("NC")) + 
+  scale_fill_gradient(low = "white", high = "blue", label = scales::comma, name = "Percentage", limits = c(20,60)) +
+  labs(title = "Percentage of White Diabetic Medicare Recipients by Coutny", subtitle = "Percentage is out of total Medicare recipients in each county. Data not available in gray areas.", caption = "Source: Mapping Medicare Disparities CMS Data") +
+  theme(legend.position = "right")
+
+##load in county data for black racial group
+blackprevcounties <- read_csv("prevalence_black_counties.csv")
+
+##filter dataset to only include NC counties
+blackprevcountiesnc <- filter(blackprevcounties, state == "NORTH CAROLINA")
+
+##black diabetes prevalence map
+plot_usmap(data = blackprevcountiesnc, values = "analysis_value", include = c("NC")) + 
+  scale_fill_gradient(low = "white", high = "blue", label = scales::comma, name = "Percentage", limits = c(20, 60)) +
+  labs(title = "Percentage of Black Diabetic Medicare Recipients by Coutny", subtitle = "Percentage is out of total Medicare recipients in each county. Data not available in gray areas.", caption = "Source: Mapping Medicare Disparities CMS Data") +
+  theme(legend.position = "right")
+
+##load in county data for native racial group
+nativeprevcounties <- read_csv("prevalence_native_counties.csv")
+
+##filter dataset to only show NC counties
+nativeprevcountiesnc <- filter(nativeprevcounties, state == "NORTH CAROLINA")
+
+##native american diabeetes prevalence map
+plot_usmap(data = nativeprevcountiesnc, values = "analysis_value", include = c("NC")) + 
+  scale_fill_gradient(low = "white", high = "blue", label = scales::comma, name = "Percentage", limits = c(20, 60)) +
+  labs(title = "Percentage of Native Diabetic Medicare Recipients by Coutny", subtitle = "Percentage is out of total Medicare recipients in each county. Data not available in gray areas.", caption = "Source: Mapping Medicare Disparities CMS Data") +
+  theme(legend.position = "right")
+
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
