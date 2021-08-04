@@ -2,14 +2,16 @@
 title: "Medicare Disparities Markdown Final"
 author: "Kaitlyn Davis"
 date: "7/24/2021"
-output: html_document
+output:
+  html_document: default
+  word_document: default
+  pdf_document: default
 ---
 
-```{r setup, include=FALSE}
+```{r race graph, echo=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
 ##install needed packages
-install.packages("dplyr")
 library(dplyr)
-install.packages("readr")
 library(readr)
 
 ##load in datasets to make prevalence bar graph
@@ -33,12 +35,15 @@ otherprevnc <- filter(otherprev, state == "NORTH CAROLINA")
 allracesprev <- bind_rows(blackprevnc, whiteprevnc, nativeprevnc, apiprevnc, hispanicprevnc, otherprevnc)
 
 ##install needed packages
-install.packages("ggplot2")
 library(ggplot2)
+```
 
+```{r prev graph, echo=TRUE, warning=FALSE, fig_margin=TRUE}
 ##prevalence by race bar graph
-ggplot(data = allracesprev, aes(x = primary_race, y = analysis_value)) + geom_bar(stat="identity", fill="black") + labs(title = "Diabetes Prevalence in Elderly North Carolinian Medicare Recipients by Race", subtitle="Percentage is out of total erlderly Medicare Recipients in each racial group.", caption="Source: Mapping Medicare Disparities CMS Data") + xlab("Racial Group") + ylab("Percentage") + geom_text(aes(label=analysis_value), vjust=0.5, hjust=1.2, color="white") + coord_flip()
+ggplot(data = allracesprev, aes(x = primary_race, y = analysis_value)) + geom_bar(stat="identity", fill="black") + labs(title = "Diabetes Prevalence in Elderly NC Medicare Recipients by Race", subtitle="Percentage is out of total erlderly Medicare Recipients in each racial group.", caption="Source: Mapping Medicare Disparities CMS Data") + xlab("Racial Group") + ylab("Percentage") + geom_text(aes(label=analysis_value), vjust=0.5, hjust=1.2, color="white") + coord_flip()
+```
 
+```{r allracecost, echo=TRUE}
 ##load in datasets for cost bar graph
 whitecost <- read_csv("cost_white_state.csv")
 blackcost <- read_csv("cost_black_state.csv")
@@ -57,10 +62,14 @@ othercostnc <- filter(othercost, state == "NORTH CAROLINA")
 
 #bind rows together - to make one dataset with each racial group
 allracescost <- bind_rows(whitecostnc, blackcostnc, nativecostnc, apicostnc, hispaniccostnc, othercostnc)
+```
 
+```{r cost graph, echo=TRUE, warning=FALSE, fig_margin=TRUE}
 ##create cost bar graph
-ggplot(data = allracescost, aes(x = primary_race, y = analysis_value)) + geom_bar(stat="identity", fill="black") + labs(title = "Average Cost of Diabetes-related Medicare Claims in North Carolina by Race", subtitle="Cost is per each beneficiary for the entirety of 2019.", caption="Source: Mapping Medicare Disparities CMS Data") + xlab("Racial Group") + ylab("Cost in Dollars") + geom_text(aes(label=analysis_value), vjust=0.5, hjust=1.2, color="white") + coord_flip()
+ggplot(data = allracescost, aes(x = primary_race, y = analysis_value)) + geom_bar(stat="identity", fill="black") + labs(title = "Average Cost of Diabetes-related Medicare Claims in NC by Race", subtitle="Cost is per each beneficiary for the entirety of 2019.", caption="Source: Mapping Medicare Disparities CMS Data") + xlab("Racial Group") + ylab("Cost in Dollars") + geom_text(aes(label=analysis_value), vjust=0.5, hjust=1.2, color="white") + coord_flip()
+```
 
+```{r whiteprevcountiesnc, include=FALSE}
 ##load in county data for white racial group
 whiteprevcounties <- read_csv("prevalence_white_counties.csv")
 
@@ -68,32 +77,41 @@ whiteprevcounties <- read_csv("prevalence_white_counties.csv")
 whiteprevcountiesnc <- filter(whiteprevcounties, state == "NORTH CAROLINA")
 
 ##white diabetes prevalence map
-install.packages("usmap")
 library(usmap)
+```
 
+```{r warning = FALSE, fig_margin = TRUE}
 plot_usmap(data = whiteprevcountiesnc, values = "analysis_value", include = c("NC")) + 
   scale_fill_gradient(low = "white", high = "blue", label = scales::comma, name = "Percentage", limits = c(20,60)) +
   labs(title = "Percentage of White Diabetic Medicare Recipients by Coutny", subtitle = "Percentage is out of total Medicare recipients in each county. Data not available in gray areas.", caption = "Source: Mapping Medicare Disparities CMS Data") +
   theme(legend.position = "right")
+```
 
+```{r blackprevcountiesnc, include=FALSE}
 ##load in county data for black racial group
 blackprevcounties <- read_csv("prevalence_black_counties.csv")
 
 ##filter dataset to only include NC counties
 blackprevcountiesnc <- filter(blackprevcounties, state == "NORTH CAROLINA")
+```
 
+```{r warning = FALSE, fig_margin = TRUE}
 ##black diabetes prevalence map
 plot_usmap(data = blackprevcountiesnc, values = "analysis_value", include = c("NC")) + 
   scale_fill_gradient(low = "white", high = "blue", label = scales::comma, name = "Percentage", limits = c(20, 60)) +
   labs(title = "Percentage of Black Diabetic Medicare Recipients by Coutny", subtitle = "Percentage is out of total Medicare recipients in each county. Data not available in gray areas.", caption = "Source: Mapping Medicare Disparities CMS Data") +
   theme(legend.position = "right")
+```
 
+```{r nativeprevcounties}
 ##load in county data for native racial group
 nativeprevcounties <- read_csv("prevalence_native_counties.csv")
 
 ##filter dataset to only show NC counties
 nativeprevcountiesnc <- filter(nativeprevcounties, state == "NORTH CAROLINA")
+```
 
+```{r warning = FALSE, fig_margin = TRUE}
 ##native american diabeetes prevalence map
 plot_usmap(data = nativeprevcountiesnc, values = "analysis_value", include = c("NC")) + 
   scale_fill_gradient(low = "white", high = "blue", label = scales::comma, name = "Percentage", limits = c(20, 60)) +
